@@ -1,0 +1,39 @@
+@import 'variables';
+
+* {
+  color: $text-color-main;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1236px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 1336px) {
+    padding: 0 40px;
+  }
+}
+
+.dp__theme_light {
+  --dp-text-color: $text-color-main;
+  --dp-border-color: transparent;
+  --dp-border-color-hover: transparent;
+}
+
+.dp--menu-wrapper {
+  @media only screen and (max-width: 425px) {
+    left: -30px !important;
+  }
+}
+
+.dp__cell_inner {
+  @media only screen and (max-width: 425px) {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.dp__input {
+  font-family: 'Montserrat', sans-serif;
+}
