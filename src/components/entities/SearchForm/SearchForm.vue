@@ -178,8 +178,6 @@
 
 <script setup lang="ts">
 
-import '@vuepic/vue-datepicker/dist/main.css';
-
 import { useVuelidate } from '@vuelidate/core';
 import { helpers, required } from '@vuelidate/validators';
 import VueDatePicker from '@vuepic/vue-datepicker';
@@ -528,15 +526,6 @@ onMounted(() => {
       }
     }
   }
-}
-
-:global(.dp__input) {
-  padding: 0;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: $font-size-sm;
-  border: none;
-  height: 18px;
 }
 
 </style>

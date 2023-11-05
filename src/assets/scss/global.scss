@@ -1,4 +1,5 @@
 @import 'variables';
+@import '@vuepic/vue-datepicker/dist/main.css';
 
 * {
   color: $text-color-main;
@@ -36,4 +37,10 @@
 
 .dp__input {
   font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: $font-size-sm;
+  border: none !important;
+  height: 18px;
+  outline: none;
 }

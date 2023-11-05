@@ -88,8 +88,6 @@ defineProps({
     padding-bottom: 20px;
 
     .last__info-data {
-      backdrop-filter: blur(2px) brightness(30%);
-      border-radius: 5px;
       padding: 5px 20px;
       height: 80px;
 
